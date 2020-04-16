@@ -62,7 +62,7 @@ This command perform the download of a saved file to restore this one from the l
 #### Untrack file 
 
 ```bash 
-wdm rm [--remote] <path>
+wdb rm [--remote] <path>
 ```
 
 This subcommand allow you to untrack the data specified by `path`, i.e. the `wdb rm ~/Documents/helloWorld.md` remove the file from the internal registry. The file on the disk stay in place and the copy in your Webdav also. It's just that at the next backup your local file will not be saved.
